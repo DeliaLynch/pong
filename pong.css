@@ -1,0 +1,89 @@
+#playfield {
+    width: 640px;
+    height: 480px;
+    background-color: black;
+    position: relative;
+  }
+
+#playerPaddle{
+    width: 20px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+}
+
+#computerPaddle{
+    width: 20px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+#ball{
+width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+}
+
+#playerScore{
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  left: 20%;
+  top: 30px;
+
+}
+
+#computerScore{
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  right: 20%;
+  top: 30px;
+}
+
+#message{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+#scoreboard{
+  position: absolute;
+  top: 20px;
+  border: solid;
+  text-align: center;
+  right: 120px;
+  width: 300px;
+}
+
+#ScoreboardHeader {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+#highScoresTable{
+  position: absolute;
+  top: 200px;
+  border: solid;
+  text-align: center;
+  right: 120px;
+  width: 300px;
+}
+
+
+
+#HighScoreHeader{
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+
+
+
+
